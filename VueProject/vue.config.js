@@ -34,5 +34,7 @@ module.exports = {
             }
         },
         port: 5002
-    }
+    },
+    filenameHashing: false,
+    outputDir: '../CoreWebAPI/wwwroot'
 }

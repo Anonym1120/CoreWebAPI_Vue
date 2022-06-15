@@ -1,0 +1,11 @@
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\CoreWebAPI.exe
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\CoreWebAPI.dll
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\CoreWebAPI.deps.json
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\CoreWebAPI.runtimeconfig.json
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\CoreWebAPI.pdb
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\VueProject\CoreWebAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

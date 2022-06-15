@@ -25,3 +25,4 @@ D:\VueProject\CoreWebAPI\obj\Debug\net6.0\refint\CoreWebAPI.dll
 D:\VueProject\CoreWebAPI\obj\Debug\net6.0\CoreWebAPI.pdb
 D:\VueProject\CoreWebAPI\obj\Debug\net6.0\CoreWebAPI.genruntimeconfig.cache
 D:\VueProject\CoreWebAPI\obj\Debug\net6.0\ref\CoreWebAPI.dll
+D:\VueProject\CoreWebAPI\bin\Debug\net6.0\CoreWebAPI.staticwebassets.runtime.json
