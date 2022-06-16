@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wi8/+HraZbAeAOzF9AsF+cVODZ35R7pcjTw0jPA7+b8=",
+  "Hash": "2OSCpxG1NJ3RB8yXtcXjb/rXu34kiSHRbq7dhBZfleI=",
   "Source": "CoreWebAPI",
   "BasePath": "_content/CoreWebAPI",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\js\\about.js",
+      "SourceId": "CoreWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VueProject\\CoreWebAPI\\wwwroot\\",
+      "BasePath": "_content/CoreWebAPI",
+      "RelativePath": "js/about.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\about.js"
+    },
+    {
+      "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\js\\about.js.map",
+      "SourceId": "CoreWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VueProject\\CoreWebAPI\\wwwroot\\",
+      "BasePath": "_content/CoreWebAPI",
+      "RelativePath": "js/about.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\about.js.map"
     },
     {
       "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\js\\app.js",
