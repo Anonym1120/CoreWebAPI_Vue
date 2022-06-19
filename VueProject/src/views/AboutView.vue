@@ -1,11 +1,12 @@
 <template>
   <div class="about">
-    <button @click="say(axiosData)" class="btn btn-primary">submit</button>
+    <button @click="getData" class="btn btn-primary">submit</button>
   </div>
+  <!-- {{ axiosData }} -->
 </template>
 
 <script>
-// import { ref, onMounted } from 'vue'
+// import { ref } from 'vue'
 // import axios from 'axios';
 
 export default {
@@ -21,7 +22,14 @@ export default {
     //   })
 
     // })
-    
+
+    // const getData = () => {
+    //   const url = ref('https://localhost:XXXX/weatherforecast');
+    //     axios.get(url.value)
+    //     .then((response) => {
+    //       axiosData.value = response
+    //     })
+    // }
 
     return { }
   }
