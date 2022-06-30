@@ -35,6 +35,19 @@ module.exports = {
         },
         port: 5002
     },
+
     filenameHashing: false,
-    outputDir: '../CoreWebAPI/wwwroot'
+    outputDir: '../CoreWebAPI/wwwroot',
+
+    pluginOptions: {
+      i18n: {
+        locale: 'en',
+        fallbackLocale: 'en',
+        localeDir: 'locales',
+        enableLegacy: false,
+        runtimeOnly: false,
+        compositionOnly: false,
+        fullInstall: true
+      }
+    }
 }

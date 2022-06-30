@@ -1,8 +1,7 @@
 <template>
   <div class="about">
-    <button @click="getData" class="btn btn-primary">submit</button>
+    <span>about page</span>
   </div>
-  <!-- {{ axiosData }} -->
 </template>
 
 <script>
@@ -11,6 +10,7 @@
 
 export default {
   setup() {
+
     //  const axiosData = ref([]);
     //  const url = ref('https://localhost:XXXX/weatherforecast');
 

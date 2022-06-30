@@ -29,7 +29,6 @@
 
 <script lang="js">
     import { defineComponent } from 'vue';
-
     export default defineComponent({
         data() {
             return {
@@ -50,7 +49,6 @@
             fetchData() {
                 this.post = null;
                 this.loading = true;
-
                 fetch('weatherforecast')
                     .then(r => r.json())
                     .then(json => {
