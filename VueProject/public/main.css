@@ -1,3 +1,4 @@
+ 
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +14,8 @@ body,
 }
 
 body {
-    font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+    font-family: 'jf-openhuninn', 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, 微軟正黑體, sans-serif;
+    font-size: 14px;
 }
 
 a {

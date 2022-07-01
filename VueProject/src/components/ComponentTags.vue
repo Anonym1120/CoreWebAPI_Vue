@@ -10,12 +10,12 @@
         </ul>
         <div class="tags-close-box">
             <el-dropdown @command="handleTags">
-                <el-button size="mini" type="primary">
+                <el-button size="default" type="primary">
                     標籤選項
                     <i class="el-icon-arrow-down el-icon--right"><el-icon><ArrowDown /></el-icon></i>
                 </el-button>
                 <template #dropdown>
-                    <el-dropdown-menu size="small">
+                    <el-dropdown-menu size="default">
                         <el-dropdown-item command="other">關閉其他</el-dropdown-item>
                         <el-dropdown-item command="all">關閉所有</el-dropdown-item>
                     </el-dropdown-menu>
@@ -113,7 +113,7 @@ export default {
 <style>
 .tags {
     position: relative;
-    height: 30px;
+    height: 35px;
     overflow: hidden;
     background: #fff;
     padding-right: 120px;
@@ -130,11 +130,11 @@ export default {
     float: left;
     margin: 3px 5px 2px 3px;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 14px;
     overflow: hidden;
     cursor: pointer;
-    height: 23px;
-    line-height: 23px;
+    height: 30px;
+    line-height: 30px;
     border: 1px solid #e9eaec;
     background: #fff;
     padding: 0 5px 0 12px;
