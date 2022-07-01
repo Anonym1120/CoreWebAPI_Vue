@@ -3,51 +3,51 @@
         <div class="crumbs">
             <el-breadcrumb separator="/">
                 <el-breadcrumb-item>
-                    <i class="el-icon-lx-cascades"></i> 基础表格
+                    <i class="el-icon-lx-cascades"></i> 基礎表格
                 </el-breadcrumb-item>
             </el-breadcrumb>
         </div>
         <div class="container">
             <div class="handle-box">
                 <el-select v-model="query.address" placeholder="地址" class="handle-select mr10">
-                    <el-option key="1" label="广东省" value="广东省"></el-option>
-                    <el-option key="2" label="湖南省" value="湖南省"></el-option>
+                    <el-option key="1" label="高雄市" value="高雄市"></el-option>
+                    <el-option key="2" label="台北市" value="台北市"></el-option>
                 </el-select>
                 <el-input v-model="query.name" placeholder="用户名" class="handle-input mr10"></el-input>
-                <el-button type="primary" icon="el-icon-search" @click="handleSearch">搜索</el-button>
+                <el-button type="primary" icon="el-icon-search" @click="handleSearch">查詢</el-button>
             </div>
             <el-table :data="tableData" border class="table" ref="multipleTable" header-cell-class-name="table-header">
                 <el-table-column prop="id" label="ID" width="55" align="center"></el-table-column>
-                <el-table-column prop="name" label="用户名"></el-table-column>
-                <el-table-column label="账户余额">
+                <el-table-column prop="name" label="使用者名稱"></el-table-column>
+                <el-table-column label="帳戶餘額">
                     <template #default="scope">￥{{ scope.row.money }}</template>
                 </el-table-column>
-                <el-table-column label="头像(查看大图)" align="center">
+                <el-table-column label="圖片" align="center">
                     <template #default="scope">
                         <el-image class="table-td-thumb" :src="scope.row.thumb" :preview-src-list="[scope.row.thumb]">
                         </el-image>
                     </template>
                 </el-table-column>
                 <el-table-column prop="address" label="地址"></el-table-column>
-                <el-table-column label="状态" align="center">
+                <el-table-column label="狀態" align="center">
                     <template #default="scope">
                         <el-tag :type="
                                 scope.row.state === '成功'
                                     ? 'success'
-                                    : scope.row.state === '失败'
+                                    : scope.row.state === '失敗'
                                     ? 'danger'
                                     : ''
                             ">{{ scope.row.state }}</el-tag>
                     </template>
                 </el-table-column>
 
-                <el-table-column prop="date" label="注册时间"></el-table-column>
+                <el-table-column prop="date" label="註冊時間"></el-table-column>
                 <el-table-column label="操作" width="180" align="center">
                     <template #default="scope">
-                        <el-button type="text" icon="el-icon-edit" @click="handleEdit(scope.$index, scope.row)">编辑
+                        <el-button type="text" icon="el-icon-edit" @click="handleEdit(scope.$index, scope.row)">編輯
                         </el-button>
                         <el-button type="text" icon="el-icon-delete" class="red"
-                            @click="handleDelete(scope.$index, scope.row)">删除</el-button>
+                            @click="handleDelete(scope.$index, scope.row)">刪除</el-button>
                     </template>
                 </el-table-column>
             </el-table>
@@ -57,10 +57,10 @@
             </div>
         </div>
 
-        <!-- 编辑弹出框 -->
-        <el-dialog title="编辑" v-model="editVisible" width="30%">
+        <!-- 編輯彈出框 -->
+        <el-dialog title="編輯" v-model="editVisible" width="30%">
             <el-form label-width="70px">
-                <el-form-item label="用户名">
+                <el-form-item label="使用者名稱">
                     <el-input v-model="form.name"></el-input>
                 </el-form-item>
                 <el-form-item label="地址">
@@ -69,8 +69,8 @@
             </el-form>
             <template #footer>
                 <span class="dialog-footer">
-                    <el-button @click="editVisible = false">取 消</el-button>
-                    <el-button type="primary" @click="saveEdit">确 定</el-button>
+                    <el-button @click="editVisible = false">取消</el-button>
+                    <el-button type="primary" @click="saveEdit">確定</el-button>
                 </span>
             </template>
         </el-dialog>
@@ -193,4 +193,6 @@ export default {
     width: 40px;
     height: 40px;
 }
+
+
 </style>
