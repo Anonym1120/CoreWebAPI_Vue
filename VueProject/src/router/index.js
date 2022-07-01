@@ -51,6 +51,9 @@ const routes = [
       {
         path: '/about',
         name: 'about',
+        meta: {
+          title : 'about',
+        },
         component: AboutView
       },
     ]

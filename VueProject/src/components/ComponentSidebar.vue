@@ -90,7 +90,7 @@ export default {
       {
         icon: "el-icon-lx-home",
         index: "/about",
-        title: "表單",
+        title: "about",
       },
     ];
 
@@ -126,5 +126,15 @@ export default {
 }
 .sidebar > ul {
   height: 100%;
+  
+}
+
+.el-menu-item {
+  font-size: 16px;
+  transition: none !important; 
+}
+
+span {
+  font-size: 16px;
 }
 </style>
