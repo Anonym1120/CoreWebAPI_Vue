@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VECKqfVK4IjGxUY38W3Xztm9atNSFo8dxy+ZMCV92hU=",
+  "Hash": "NuzLzNvMKnwDnUQcjs7n/igbY57S7xAN0o18QUZvLtI=",
   "Source": "CoreWebAPI",
   "BasePath": "_content/CoreWebAPI",
   "Mode": "Default",
@@ -34,6 +34,23 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
+      "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\css\\chunk-vendors.css",
+      "SourceId": "CoreWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VueProject\\CoreWebAPI\\wwwroot\\",
+      "BasePath": "_content/CoreWebAPI",
+      "RelativePath": "css/chunk-vendors.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chunk-vendors.css"
+    },
+    {
       "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\favicon.ico",
       "SourceId": "CoreWebAPI",
       "SourceType": "Discovered",
@@ -51,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\img\\Anonymous.png",
+      "SourceId": "CoreWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VueProject\\CoreWebAPI\\wwwroot\\",
+      "BasePath": "_content/CoreWebAPI",
+      "RelativePath": "img/Anonymous.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Anonymous.png"
+    },
+    {
       "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\index.html",
       "SourceId": "CoreWebAPI",
       "SourceType": "Discovered",
@@ -66,40 +100,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\js\\about.js",
-      "SourceId": "CoreWebAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VueProject\\CoreWebAPI\\wwwroot\\",
-      "BasePath": "_content/CoreWebAPI",
-      "RelativePath": "js/about.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\about.js"
-    },
-    {
-      "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\js\\about.js.map",
-      "SourceId": "CoreWebAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VueProject\\CoreWebAPI\\wwwroot\\",
-      "BasePath": "_content/CoreWebAPI",
-      "RelativePath": "js/about.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\about.js.map"
     },
     {
       "Identity": "D:\\VueProject\\CoreWebAPI\\wwwroot\\js\\app.js",

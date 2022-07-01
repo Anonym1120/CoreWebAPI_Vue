@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <!-- 折叠按钮 -->
+        <!-- 摺疊按鈕 -->
         <div class="collapse-btn" @click="collapseChage">
             <el-icon v-if="!collapse"><Fold /></el-icon>
             <el-icon v-else><Expand /></el-icon>

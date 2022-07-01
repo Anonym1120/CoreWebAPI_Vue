@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import BabyCardView from '../views/BabyCardView.vue'
 import VoucherView from '../views/VoucherView.vue'
+import BaseForm from '../views/BaseFormView.vue'
 
 const routes = [
   {
@@ -27,7 +28,7 @@ const routes = [
         path: '/babycard',
         name: 'babycard',
         meta: {
-          title: 'babycard'
+          title: '享享卡報表'
         },
         component: BabyCardView
       },
@@ -35,23 +36,26 @@ const routes = [
         path: '/voucher',
         name: 'voucher',
         meta: {
-          title: 'voucher'
+          title: '電子劵報表'
         },
         component: VoucherView
       },
-      
+      {
+        path: '/baseform',
+        name: 'baseform',
+        meta: {
+          title : '表單',
+        },
+        component: BaseForm,
+      },
+      {
+        path: '/about',
+        name: 'about',
+        component: AboutView
+      },
     ]
   },
-  {
-    path: '/index',
-    name: 'index',
-    component: IndexView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: AboutView
-  },
+  
   
 ]
 

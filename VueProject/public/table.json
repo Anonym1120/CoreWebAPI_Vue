@@ -1,0 +1,31 @@
+{
+    "list": [{
+            "id": 1,
+            "name": "姓名一",
+            "money": 123,
+            "address": "高雄市",
+            "state": "成功",
+            "date": "2022-07-02",
+            "thumb": "https://lin-xin.gitee.io/images/post/wms.png"
+        },
+        {
+            "id": 2,
+            "name": "姓名二",
+            "money": 456,
+            "address": "台中市",
+            "state": "成功",
+            "date": "2020-02-02",
+            "thumb": "https://lin-xin.gitee.io/images/post/node3.png"
+        },
+        {
+            "id": 3,
+            "name": "姓名三",
+            "money": 789,
+            "address": "台北市",
+            "state": "失敗",
+            "date": "2022-01-01",
+            "thumb": "https://lin-xin.gitee.io/images/post/parcel.png"
+        }
+    ],
+    "pageTotal": 4
+}

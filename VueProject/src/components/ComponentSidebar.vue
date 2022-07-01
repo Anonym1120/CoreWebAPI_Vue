@@ -14,7 +14,6 @@
         <template v-if="item.subs">
           <el-sub-menu :index="item.index" :key="item.index">
             <template #title>
-              <!-- <component :is="item.icon" style="width: 16px; height: 16px"></component> -->
               <i :class="item.icon"></i>
               <span>{{ item.title }}</span>
             </template>
@@ -69,7 +68,7 @@ export default {
         title: "首頁",
       },
       {
-        icon: "Search",
+        icon: "el-icon-lx-home",
         index: "1",
         title: "查詢",
         subs: [
@@ -82,6 +81,16 @@ export default {
             title: "電子劵",
           },
         ],
+      },
+      {
+        icon: "el-icon-lx-home",
+        index: "/baseform",
+        title: "表單",
+      },
+      {
+        icon: "el-icon-lx-home",
+        index: "/about",
+        title: "表單",
       },
     ];
 
