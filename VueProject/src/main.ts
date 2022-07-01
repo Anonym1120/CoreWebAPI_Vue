@@ -6,7 +6,6 @@ import installElementPlus from './plugins/element'
 import 'element-plus/dist/index.css'
 
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
-import installI18n from './lang/index'
 
 const app = createApp(App)
 
@@ -20,6 +19,3 @@ app
 .use(store)
 .use(router)
 .mount('#app')
-
-
-installI18n(app)

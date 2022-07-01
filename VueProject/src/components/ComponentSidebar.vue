@@ -15,7 +15,6 @@
           <el-sub-menu :index="item.index" :key="item.index">
             <template #title>
               <!-- <component :is="item.icon" style="width: 16px; height: 16px"></component> -->
-              <el-icon :is="item.icon"></el-icon>
               <i :class="item.icon"></i>
               <span>{{ item.title }}</span>
             </template>
