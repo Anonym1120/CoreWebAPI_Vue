@@ -40,7 +40,6 @@
         </template>
         <template v-else>
           <el-menu-item :index="item.index" :key="item.index">
-            <component :is="item.icon"></component>
             <i :class="item.icon"></i>
             <template #title>{{ item.title }}</template>
           </el-menu-item>
@@ -55,6 +54,7 @@
 import { computed } from "vue";
 import { useStore } from "vuex";
 import { useRoute } from "vue-router";
+
 
 export default {
   setup() {
@@ -80,17 +80,12 @@ export default {
             index: "/voucher",
             title: "電子劵",
           },
+          {
+            index: "/baseform",
+            title: "表單",
+          },
+
         ],
-      },
-      {
-        icon: "el-icon-lx-home",
-        index: "/baseform",
-        title: "表單",
-      },
-      {
-        icon: "el-icon-lx-home",
-        index: "/about",
-        title: "about",
       },
     ];
 
@@ -131,10 +126,12 @@ export default {
 
 .el-menu-item {
   font-size: 16px;
-  transition: none !important; 
+  transition: none !important;
+  font-family: 微軟正黑體;
 }
 
 span {
   font-size: 16px;
+  font-family: 微軟正黑體;
 }
 </style>

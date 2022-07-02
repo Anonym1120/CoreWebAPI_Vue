@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import IndexView from '../views/IndexView.vue'
 import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
 import BabyCardView from '../views/BabyCardView.vue'
 import VoucherView from '../views/VoucherView.vue'
 import BaseForm from '../views/BaseFormView.vue'
@@ -47,14 +46,6 @@ const routes = [
           title : '表單',
         },
         component: BaseForm,
-      },
-      {
-        path: '/about',
-        name: 'about',
-        meta: {
-          title : 'about',
-        },
-        component: AboutView
       },
     ]
   },
